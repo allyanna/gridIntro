@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  /*grid-template-columns: 25% 25% 25% 25%;*/
+  /*or*/
+  grid-template-columns: repeat(auto-fit, 500px);
+  /*grid-template-rows: 500px 500px;*/
+  grid-template-rows: repeat(2, 500px);
+
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+
+}
+
+/*specifies how many columns you want
+ (grid-template-columns)*/
+
+/*specifies how the rows grows and shrinks
+(grid-template-rows)*/
+
+.one {
+  background-color: gray;
+}
+
+.two {
+  background-color: pink;
+}
+
+.three {
+  background-color: greenyellow;
+}
+
+.four {
+  background-color: darkgoldenrod;
+}
+
+.five{
+  background-color: blueviolet;
+}
+
+.six {
+  background-color: aquamarine;
+}
